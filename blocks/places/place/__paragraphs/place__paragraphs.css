@@ -1,0 +1,14 @@
+.place__paragraphs {
+    margin: 0;
+    grid-area: paragraph;
+    width: 100%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
