@@ -10,19 +10,19 @@
     position: relative;
     box-sizing: border-box;
     }
-    @media screen and (min-width: 320px) and (max-width: 768px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
         .cover {
             margin: 66px auto;
             width: 100%;
         }
     }
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
         .cover {
             margin: 90px 0;
             width: 100%;
         }
     }
-    @media screen and (min-width: 1024px) and (max-width: 1280px) {
+    @media screen and (min-width: 1024px) and (max-width: 1279Fpx) {
         .cover {
             margin: 92px 0 92px 0;
             width: 100%;
