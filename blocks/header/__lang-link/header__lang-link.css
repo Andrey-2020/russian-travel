@@ -8,4 +8,9 @@ line-height: 28px;
 text-decoration-line: none;
 color: #FFFFFF;
 margin:0;
+transition: opacity 1s ease;
+}
+
+.header__lang-link:hover {
+    opacity: 0.5;
 }
