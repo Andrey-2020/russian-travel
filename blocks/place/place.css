@@ -1,4 +1,5 @@
 .place {
+    font-family: "Inter", "Arial", "Helvetica", "sans-serif";
     margin: 80px 0 0 0;
     width: 100%;
     display: grid;
@@ -12,26 +13,24 @@
     margin-top: 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .place {
-        grid-template-columns: minmax(min-content, max-content);
-        grid-template-rows: repeat(3, auto);
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .place {
-        grid-template-columns: minmax(min-content, max-content);
-        grid-template-rows: 1fr minmax(min-content, max-content);  
-        gap: 48px 28px;
-
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
     .place {
         grid-template-columns: 1fr minmax(min-content, max-content);
         grid-template-rows: 1fr minmax(min-content, max-content);
         gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place {
+        grid-template-columns: minmax(min-content, max-content);
+        grid-template-rows: repeat(3, auto);
+        gap: 32px 0;
     }
 }

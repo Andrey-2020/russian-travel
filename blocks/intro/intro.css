@@ -1,17 +1,26 @@
 .intro {
+    font-family: "Inter", "Arial", "Helvetica", "sans-serif";
     margin: 92px auto 0 auto;
     width: 90%;
     max-width: 984px;
     text-align: left;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .intro {}
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .intro {
         margin: 88px auto 0 auto;
-        width: 93.5%;
+        width: 90%;
+    }
+}
+@media screen and (max-width: 764px) {
+    .intro {
+        margin: 88px auto 0 auto;
+        width: 93.75%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro {
+        margin: 88px auto 0 auto;
+        width: 90%;
     }
 }
