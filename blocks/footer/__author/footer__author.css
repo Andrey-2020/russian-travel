@@ -1,5 +1,5 @@
 .footer__author {
-    margin: 0;
+    margin: 2px 0 0 0;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -7,7 +7,7 @@
     text-align: right;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .footer__author {
         margin: 48px 0 0 0;
         text-align: left;
